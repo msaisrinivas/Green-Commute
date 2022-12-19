@@ -1,7 +1,7 @@
 .tableParameters {
   width: 140px;
   height: 160px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: start;
 }
@@ -12,10 +12,9 @@
   font-weight: 600px;
   font-size: 16px;
 }
-.css-1rbzz6a-MuiTypography-root{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-
+.css-1rbzz6a-MuiTypography-root {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
 }

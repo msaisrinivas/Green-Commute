@@ -1,21 +1,21 @@
-.outerBoxLoc{
-    width: 357px;
-    height: 102px;
-    left: 23px;
-    top: 249px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(125, 125, 125, 0.12);
-    border-radius: 8px;
+.outerBoxLoc {
+  width: 357px;
+  height: 102px;
+  left: 23px;
+  top: 249px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(125, 125, 125, 0.12);
+  border-radius: 8px;
 }
 .dot {
-    height: 4px;
-    width: 4px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 4px;
-  }
- .dots{
-     display:flex;
-     transform: translate(10px,-3px);
- } 
+  height: 4px;
+  width: 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 4px;
+}
+.dots {
+  display: flex;
+  transform: translate(10px, -3px);
+}
