@@ -1,0 +1,113 @@
+*{
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-transform: none;
+}
+
+.atoms/leaf{
+    position: absolute;
+    left: 0%;
+    right: 87.3%;
+    top: 3.12%;
+    bottom: 3.12%;
+    background: #FFFFFF;
+    height: 30px;
+    width: 24px;
+    left: 0px;
+    top: 1px;
+    border-radius: 0px;
+}
+
+.atoms/logo{
+    height: 32px;
+    width: 161px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    width: 161px;
+    height: 32px;
+
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.nextBtnNormal{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-transform: none;
+    width: 150px;
+    height: 40px;
+    background: #0B6D62;
+    border-radius: 8px;
+}
+
+.nextBtnNormal:hover{
+    background: #30A193;
+}
+
+.nextBtnNormal:active{
+    background: #4ABAAD;
+}
+
+.filterBtn{
+    width: 37px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #373C38;
+    background: #FFFFFF;
+    border-radius: 32px;
+
+}
+
+.greenCommuteBtn{
+    width: 409px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    color:  #30A193;
+    box-shadow: 0px -2px 8px rgba(125, 125, 125, 0.12);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.skipBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 48px;
+    gap: 10px;
+    position: absolute;
+    width: 124px;
+    height: 40px;
+    left: 190px;
+    top: 131px;
+    border: 1px solid #4ABAAD;
+    border-radius: 8px;
+}
+
+.saveBtn{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-transform: none;
+    border-color: #4ABAAD;
+    width: 92px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4ABAAD;
+    
+}

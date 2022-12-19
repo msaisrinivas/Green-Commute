@@ -1,0 +1,11 @@
+.lpBox1 {
+  height: 768px;
+  width: 792px;
+}
+.lpBox2 {
+  height: 768px;
+  width: 574px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

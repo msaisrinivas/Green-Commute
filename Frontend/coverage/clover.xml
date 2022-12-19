@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1659166656567" clover="3.2.0">
+  <project timestamp="1659166656568" name="All files">
+    <metrics statements="66" coveredstatements="61" conditionals="24" coveredconditionals="23" methods="13" coveredmethods="9" elements="103" coveredelements="93" complexity="0" loc="66" ncloc="66" packages="3" files="3" classes="3"/>
+    <package name="Components.Organisms.SidePane">
+      <metrics statements="22" coveredstatements="22" conditionals="22" coveredconditionals="22" methods="7" coveredmethods="7"/>
+      <file name="index.tsx" path="/home/shaiA/Music/bootcamp-45_greencommute/Frontend/src/Components/Organisms/SidePane/index.tsx">
+        <metrics statements="22" coveredstatements="22" conditionals="22" coveredconditionals="22" methods="7" coveredmethods="7"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="35" type="cond" truecount="6" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="32" count="28" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="38" count="21" type="stmt"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="44" count="7" type="stmt"/>
+        <line num="50" count="7" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="59" count="7" type="stmt"/>
+        <line num="70" count="35" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="113" count="21" type="stmt"/>
+        <line num="176" count="2" type="stmt"/>
+        <line num="178" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Components.Organisms.UploadResume">
+      <metrics statements="13" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="2"/>
+      <file name="index.tsx" path="/home/shaiA/Music/bootcamp-45_greencommute/Frontend/src/Components/Organisms/UploadResume/index.tsx">
+        <metrics statements="13" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Data">
+      <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Cities.tsx" path="/home/shaiA/Music/bootcamp-45_greencommute/Frontend/src/Data/Cities.tsx">
+        <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="50" count="9" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="52" count="9" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="54" count="9" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="56" count="9" type="stmt"/>
+        <line num="57" count="9" type="stmt"/>
+        <line num="58" count="9" type="stmt"/>
+        <line num="60" count="9" type="stmt"/>
+        <line num="61" count="9" type="stmt"/>
+        <line num="62" count="9" type="stmt"/>
+        <line num="63" count="9" type="stmt"/>
+        <line num="64" count="9" type="stmt"/>
+        <line num="65" count="9" type="stmt"/>
+        <line num="68" count="9" type="stmt"/>
+        <line num="69" count="9" type="stmt"/>
+        <line num="70" count="9" type="stmt"/>
+        <line num="71" count="9" type="stmt"/>
+        <line num="72" count="9" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="74" count="9" type="stmt"/>
+        <line num="75" count="9" type="stmt"/>
+        <line num="77" count="9" type="stmt"/>
+        <line num="78" count="9" type="stmt"/>
+        <line num="80" count="9" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

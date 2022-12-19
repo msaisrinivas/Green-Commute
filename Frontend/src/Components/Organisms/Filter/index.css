@@ -1,0 +1,50 @@
+.heading {
+  margin-right: 15px;
+}
+.clearAllText {
+  border-radius: 4px;
+  width: 70px;
+  border-style: solid dotted inset double;
+  border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(98, 226, 19)
+    rgb(255, 255, 255);
+}
+.tableDimensions {
+  width: 140px;
+  height: 160px;
+}
+.clearText{
+  border-radius: 3.5px;
+  width: 32px;
+  height: 25px;
+  padding-Top:100px;
+  border-style: solid dotted inset double;
+  border-color:  #30A193 ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.innerBox {
+  transform: translate(82%,10%);
+  background-color: white;
+  width: 70vh;
+  height:55vh;
+  border-radius: 8px;
+}
+.css-ahj2mt-MuiTypography-root {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.filterBox{
+  display: flex;
+  flex-direction: row;
+  width:750px
+}
+
+@media screen and (max-width: 414px) {
+  .innerBox {
+    overflow-y: auto;
+  }
+ 
+}

@@ -1,0 +1,42 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+      routes:
+        - id: LOCATION-SERVICE
+          uri: lb://LOCATION-SERVICE
+          predicates:
+            - Path=/locations/**
+        - id: JOB-SERVICE
+          uri: lb://JOB-SERVICE
+          predicates:
+            - Path=/jobs/**
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/users/**
+        - id: USER-JOB-SERVICE
+          uri: lb://USER-JOB-SERVICE
+          predicates:
+            - Path=/userjobs/**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://3.143.224.91:8761/eureka/
+  instance:
+    hostname: 3.143.224.91

@@ -1,0 +1,13 @@
+{
+  "locations": [
+    { "name": "Ameerpet, Hyderabad, Telangana", "AQIIndex": 535 },
+
+    { "name": "Begumpet, Hyderabad, Telangana", "AQIIndex": 570 },
+
+    { "name": "East Marredpally, Hyderabad, Telangana", "AQIIndex": 678 },
+
+    { "name": "Pleasant Park, Mumbai, Maharashtra", "AQIIndex": 768 },
+
+    { "name": "Mira gaon, Mumbai, Maharashtra", "AQIIndex": 876}
+  ]
+}
