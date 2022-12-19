@@ -1,16 +1,16 @@
-.skipText{
-    border-radius: 3.5px;
-    width: 32px;
-    height: 25px;
-    padding-Top:80px;
-    border-style: solid dotted inset double;
-    border-color: rgb(255, 255, 255) rgb(255, 255, 255) #30A193 rgb(255, 255, 255);
+.skipText {
+  border-radius: 3.5px;
+  width: 32px;
+  height: 25px;
+  padding-top: 80px;
+  border-style: solid dotted inset double;
+  border-color: rgb(255, 255, 255) rgb(255, 255, 255) #30a193 rgb(255, 255, 255);
 }
-.backButton{
-    width:140px;
-    height:46px;
-    border-style: solid;
-    border-radius: 8px;
-    border-color: aquamarine;
-    color:aquamarine
+.backButton {
+  width: 140px;
+  height: 46px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: aquamarine;
+  color: aquamarine;
 }

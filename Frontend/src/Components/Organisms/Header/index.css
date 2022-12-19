@@ -1,63 +1,61 @@
-.searchBarBox{
-    display: flex;
-    flex: row;
-    position: absolute;
-    flex-direction: space-between;
-    width: 340px;
-    align-items: flex-start;
-    height: 28px;
-    left: 378px;
-    top: 26px;
-    transform: translate(10px, 3px);
+.searchBarBox {
+  display: flex;
+  flex: row;
+  position: absolute;
+  flex-direction: space-between;
+  width: 340px;
+  align-items: flex-start;
+  height: 28px;
+  left: 378px;
+  top: 26px;
+  transform: translate(10px, 3px);
 }
-.mainBox{
-    position: absolute;
-    width: 1366px;
-    height: 80px;
-    left: -8px;
-    top: -8px; 
+.mainBox {
+  position: absolute;
+  width: 1366px;
+  height: 80px;
+  left: -8px;
+  top: -8px;
 }
-.avatar{
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    left: 1290px;
-    top: 22px;
-}
-
-.locationIcon{
-    position: absolute;
-left: 1.5%;
-right: 25.5%;
-top: 4.17%;
-bottom: 4.17%;
-Width:26.5px;
-Height:25.5px
-}
-.borderLine{
-    position: absolute;
-width: 340px;
-height: 0px;
-left: 378px;
-top: 54px;
-
-}
-.endIcons{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 1px;
-gap: 10px;
-position: absolute;
-width: 24px;
-height: 24px;
-left: 1240px;
-top: 28px;
+.avatar {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1290px;
+  top: 22px;
 }
 
-.rightmenu{
-    display: flex;
-    align-items: flex-end;
-    
+.locationIcon {
+  position: absolute;
+  left: 1.5%;
+  right: 25.5%;
+  top: 4.17%;
+  bottom: 4.17%;
+  width: 26.5px;
+  height: 25.5px;
+}
+.borderLine {
+  position: absolute;
+  width: 340px;
+  height: 0px;
+  left: 378px;
+  top: 54px;
+}
+.endIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 1px;
+  gap: 10px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1240px;
+  top: 28px;
+}
+
+.rightmenu {
+  display: flex;
+  align-items: flex-end;
 }

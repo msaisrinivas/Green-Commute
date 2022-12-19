@@ -1,17 +1,15 @@
-.firstRadioButton{
-    height: 16px;
-    width: 16px;
-    left: 0px;
-    top: 0px;
-    border-radius: 4px;
-    
+.firstRadioButton {
+  height: 16px;
+  width: 16px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
 }
 
-.secondRadioButton{
-height: 16px;
-width: 16px;
-left: 0px;
-top: 0px;
-border-radius: 4px;
-
+.secondRadioButton {
+  height: 16px;
+  width: 16px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
 }
